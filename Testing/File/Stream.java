@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Download {
+public class Stream {
     public static void main(String[] args) throws IOException {
         Request request=new Request();
         request.getting();
