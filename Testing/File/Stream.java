@@ -16,7 +16,7 @@ public class Stream {
 
 class Request
 {
-    String filename="/root/code/Testing/File/test.png";
+    String filename="./test.png";
     public void getting() throws IOException
     {
         @SuppressWarnings("deprecation")
