@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class File_addressing
 {
-    String fileName="/root/code/Lesson/a.txt";
+    String fileName="./a.txt";
     public void Reading()throws IOException
     {
         try (Scanner sc = new Scanner(new FileReader(fileName))) 
